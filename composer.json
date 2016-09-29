@@ -1,0 +1,21 @@
+{
+    "name": "rizalafani/ibanking",
+    "description": "An automatic way to check the balance and received payment in your bank account.",
+    "authors": [
+        {
+            "name": "Rizal Afani",
+            "email": "ahmadrizalafani@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "nesbot/carbon": "1.21.*",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "symfony/dom-crawler": "2.8.*|3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rizalafani\\ibanking\\": "src/"
+        }
+    }
+}
